@@ -1,0 +1,48 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "Water Proof",
+        "Fire Proof",
+        "Bullet Proof",
+        "Invisibility"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "The unicorn is a mythical creature. Strong, wild, and fierce, it was impossible to tame by man. Plinie, the Roman naturalist records it as \"a very ferocious beast, similar in the rest of its body to a horse, with the head of a deer, the feet of an elephant, the tail of a boar, a deep, bellowing voice, and a single black horn, two cubits in length, standing out in the middle of its forehead.\""
+      },
+      "number": 1,
+      "prompt": "In many forms of Media, Batman's cape has been proven to have which trait?"
+    },
+    {
+      "answers": [
+        "The Lady in Red",
+        "Wonder Woman",
+        "Cat Woman",
+        "Super Woman"
+      ],
+      "correct": {
+        "index": 0
+      },
+      "number": 2,
+      "prompt": "What is the name of the first Masked Woman ever created in the history of comic books?"
+    },
+    {
+      "answers": [
+        "Cecil",
+        "Timid",
+        "Cecil's World",
+        "The Adventures of Cecil"
+      ],
+      "correct": {
+        "index": 1
+      },
+      "image": "unicorn.jpg",
+      "image_credit": "Random dude from the Interwebs",
+      "number": 3,
+      "prompt": "What is the name of BKCFest's comic book creator, Jonathan Todd's newest book to be released in 2021?"
+  }  
+  ],
+  "title": "Comics Challenge",
+  "url": "http://urbaninstitute.github.io/quick-quiz/"
+}

@@ -1,0 +1,146 @@
+   body{
+   font-family: "Garamond", serif
+   
+   }  
+   
+   .medium-font {
+    font-size: 16px;
+    }
+
+    /* Remove the navbar's default margin-bottom, rounded borders, background color and borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #022954;
+      border: 0;
+    }
+    /* Style the drop down menu tabs and on hover */
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+    background-color: #0D5A78 !important;
+  }
+    .open .dropdown-toggle {
+      color: #fff;
+      background-color: #0D5A78 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: #620A4D !important;
+      color: #FFFFFF !important;
+  }
+    /* styles active home menu item*/
+    .active_dropdown li a:hover {
+      background-color: #620A4D !important;
+    }
+    
+    .active_dropdown li a:active {
+      background-color: #FFFFFF !important;
+    }
+ 
+  /* style for the tagline*/
+    .tagline {
+      font-size: 25px !important;
+      letter-spacing: .5px;
+    }
+   
+
+  /* style for the tagline*/
+    .tagline {
+      font-size: 25px !important;
+      letter-spacing: .5px;
+    }
+    /* Styles over the default for bootstrap's jumbotron*/
+    .jumbotron {
+      color: black;
+      background-color: #FFFFFF;
+      
+    }
+    .center-block {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+}
+    .img {
+      width: 100%;
+    }    
+   .gallery-button {
+    float: center;
+  }
+ .gallery-picture:hover {
+   -webkit-filter: drop-shadow(4px 4px 20px black) sepia(0.6);
+    }
+    
+    .panel {
+    background-color: #f2f2f2;
+    border: 0;
+    }
+    
+   .gallery-title {
+    font-size: 36px;`
+    color: #620A4D;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+   .gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #620A4D;
+    border-radius: 5px;
+    text-align: center;
+    color: #620A4D;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #620A4D;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #620A4D;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #620A4D;
+    color: white;
+}
+/* center image on 404 page*/
+.breadcrumbs-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+ /* Add a blue background color and some padding to the footer */
+    footer {
+      color: #FFFFFF;
+      padding: 25px;
+      background-color: #022954;
+    }
